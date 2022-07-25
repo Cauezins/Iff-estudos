@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cauê Neves, Jhonatan Rangel">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Programação</title>
+    
+</head>
+<body>
+    <header class="Cabeçalho">
+        <a href="index.html"><img class="Cabeçalho Img" src="logoiff.png" alt="Logo iff"> </a>
+        <nav class="cabeçalho-menu">
+            <a class="Cabeçalho-text" href="biologia.html">Biologia</a>
+            <a class="Cabeçalho-text" href="matematica.html">Matemática</a>
+            <a class="Cabeçalho-text" href="programacao.html" >Programação</a>
+      </nav>      
+  </header>
+
+  <main class="Conteudo-piece">
+    <section class="conteudo1">
+        <h1 id="Java Script">Java Script</h1>
+        <img class="img1" src="js.png" alt="Java script">
+
+        <div class="descri">
+            <p>JavaScript é uma linguagem de programação que permite a você criar conteúdo que se atualiza dinamicamente, controlar múltimídias, imagens animadas, e tudo o mais que há de intessante. Ok, não tudo, mas é maravilhoso o que você pode efetuar com algumas linhas de código JavaScript.</p>
+        </div>
+    
+    </section>
+
+    <section class="conteudo">
+        <h1 id="Java Script">Lógica de programação</h1>
+        <br>
+        <h2>Escopo</h2>
+        <p class="progra">Algo que devemos nos atentar bastante é nos escopos, mas afinal o que é isso? Bom escopo é basicamente até onde sua váriavel pode ser acessada, a grosso modo. O escopo normalmente é identificado com o uso das chaves { } nas funções. Mas podemos ter tipos diferentes de escopos:</p>
+        <br>
+        <h3>Escopo global</h3>
+        <p class="progra">Uma variável global é definida quando declaramos uma variável fora de qualquer função, assim ela torna acessível a qualquer parte da nossa aplicação, podendo ser lida e alterada.</p>
+        <br>
+        <h3>Escopo local</h3>
+        <p class="progra">Uma variável local é definida quando declaramos uma variável dentro de uma função, assim ela torna acessível somente dentro da função onde ela foi declarada.</p>
+        <p class="exemplo">Exemplos:</p>
+        <img id="imggg" src="exemplo.png" alt="exemplo">
+        <p class="progra">No exemplo acima não conseguimos acessar a variavel local pois ela só pode ter acesso dentro do escopo que ela está, no caso a função <b>showMeTheCode()</b>, vamos ver o que acontece se chamarmos a função apenas:</p>
+        <img id="imggg" src="exemplo2.png" alt="exemplo 2">
+        <p class="progra">Nesse caso conseguimos acessar as duas variáveis, porque a global está fora do escopo, mas pode ser usada e lida dentro de qualquer escopo.</p>
+        <br>
+        <h2>Como ver o retorno dos valores</h2>
+        <p class="progra">Podemos usar algumas ferramentas para isso, mas recomendo usar o dev tools do navegador, basta apertar <b>Ctrl + Shift + J</b> e abrira na aba de console, caso não abra funciona apertando <b>F12</b> no seu teclado, mas ai você irá navegar para a aba console. Para testarmos nossas saídas de código que são nossos resultados, vamos usar o comando <b>console.log(variável)</b></p>
+        <p class="refe">Referencias: <a class="clik" href="https://dev.to/telles/logica-de-programacao-com-javascript-iniciante-309n" target="_blank">dev.to</a></p>
+    </section>
+    
+    
+    <div class="credito">
+        <p id="todos"> <b>Todos direitos reservados</b> </p>
+        <picture>
+            <source media="(min-width: 500px)" srcset="newtec.png">
+            <source media="(max-width: 400px)" srcset="newtec.png">
+            <img src="newtec.png" usemap="#new">
+            
+        </picture>
+        
+        <map name="new">
+                <area shape="rect" coords="2,1,66,23" href="https://www.instagram.com/newtec_rj/" target="_blank" alt="logo">
+        </map>
+        <p id="todos"> <b>Copyright © 2022</b> </p>
+    
+    </div>
+</main>
+
+
+
+</body>
+</html>

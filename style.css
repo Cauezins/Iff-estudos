@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap');
+
+body{
+    background-color: #ffffff;
+}
+
+.descri{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Cabeçalho {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5;
+    margin: 0.30%;
+  
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99.3%;
+    height: 56px;
+    border: 1px solid #fcfcfc00;
+    border-radius: 6px;
+    background-color: rgba(24, 202, 0, 0.603);
+}
+.Cabeçalho Img {
+    height: 5.2vh;
+    
+}
+.cabeçalho-menu {
+    display: flex;
+    gap: 80px;
+}
+.Cabeçalho-text {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 2px;
+    font-size: 17px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.Cabeçalho-text:hover {
+    opacity: 0.7;
+  }
+  .clik:link{
+    color: rgb(24, 202, 0);
+  }
+  .clik:hover{
+    color: rgba(24, 202, 0, 0.837);
+  }
+  .clik:visited{
+    color: rgb(26, 87, 18);
+  }
+  .clik:active{
+     color: rgb(12, 44, 8);
+  }
+
+.Conteudo-piece {
+    margin-bottom: 50;
+    
+    padding: 20px;
+}
+section {
+    
+    align-items: center;
+    border: 1px solid rgb(210, 210, 210);;
+    border-radius: 5px;
+    margin: 40px;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:rgb(210, 210, 210);
+
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(rgb(51, 51, 51));
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(51, 51, 51);
+
+}
+.img1{
+    margin-left: 25%;
+    height: 40%;
+    width: 50%;
+}
+.mate{
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+   }
+
+/*Cauê*/
+.conceito{
+    display: flex;
+}
+
+.terra{
+    height: 30%;
+    width: 30%;
+    margin-left: 150px;
+}
+
+h5{
+   text-align: right;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4%;
+    text-align: left;
+    font-size: 23px;
+}
+h3{
+    text-align: left;
+    margin-left: 4%;
+    font-family: 'Roboto', sans-serif;
+}
+.progra{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.exemplo{
+    margin-left: 4%;
+}
+#imggg{
+    height: 70%;
+    width:  70%;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+.refe{
+    margin-left: 4%;
+}
+#p1{
+    margin: 4%;
+    text-align: justify;
+    color: black;
+}
+
+
+#terra{
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding: 2%;
+    font-size: 16px;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(210, 210, 210);
+    border-radius:px;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:rgba(24, 202, 0, 0.647);    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 3px solid rgba(24, 202, 0, 0.217);  /* creates padding around scroll thumb */
+  }
+  #pi:hover{
+    border: 1px solid black ;
+  }
+  .credito{
+    font-size: 12px;
+    width: 100%;
+    height: 4%;
+    margin-top: 10;
+    text-align: center;
+  }
+ 
+
+  #todos{
+    text-align: center;
+  }
+ 
+  @media (max-width: 1000px) {
+    header{
+        width: 99.3%;
+        height: 55px;
+    }
+    .Cabeçalho Img{
+        height: 5vh;
+    }
+    .cabeçalho-menu {
+        gap: 10px;
+    }
+    .Cabeçalho-text {
+        font-size: 15px;
+       
+    }
+    section{
+        margin-top: 7%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}  
+    @media (max-width: 700px) {
+        header{
+            width: 99.3%;
+            height: 55px;
+        }
+        .Cabeçalho Img{
+            height: 4vh;
+        }
+        .cabeçalho-menu {
+            gap: 10px;
+        }
+        .Cabeçalho-text {
+            font-size: 14px;
+           
+        }
+        section{
+            margin-top: 8%;
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+
+
+  }
+  @media (max-width: 500px) {
+    header{
+        width: 99.3%;
+        height: 50px;
+    }
+    .Cabeçalho Img{
+        height: 3.5vh;
+    }
+    .cabeçalho-menu {
+        gap: 10px;
+    }
+    .Cabeçalho-text {
+        font-size: 13px;
+       
+    }
+    section{
+        margin-top: 11%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 17px;
+        margin-left: 4%;
+    }
+    h3{
+        font-size: 14px;
+        margin-left: 4%;
+    }
+    h5{
+        font-size: 10px;
+    }
+    p{
+        font-size: 15px;
+    }
+    #p1{ 
+        margin: 0px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    li{
+        margin-right: 10%;
+        margin-left: 0.1%;
+    }
+    #todos{
+        font-size: 12px;
+    }
+    .credito{
+        margin-top: -4%;
+        margin-bottom: -6%;
+    }
+
+  }
